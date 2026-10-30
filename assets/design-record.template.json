@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.5",
+  "run": {
+    "date": "",
+    "weekday": "",
+    "slug": "",
+    "timezone": "Asia/Shanghai",
+    "mode": "create",
+    "rendering_mode": "integrated_image_text",
+    "author_review_required": true,
+    "status": "initialized",
+    "initialized_at": ""
+  },
+  "content_selection": {
+    "selection_mode": "",
+    "user_direction": "",
+    "desired_effect": "",
+    "scope_note": "",
+    "range_check": "",
+    "pool_stop_reason": "",
+    "candidates": [],
+    "finalist_comparison": [],
+    "selected_candidate_id": "",
+    "selection_rationale": "",
+    "author_review": {
+      "candidate_id": "",
+      "author": "",
+      "checked_at": "",
+      "identity_note": "",
+      "queries": [],
+      "sources": [],
+      "findings": [],
+      "decision": "pending",
+      "rationale": "",
+      "limitations": ""
+    },
+    "semantic_diversity_review": {
+      "decision": "pending",
+      "note": ""
+    }
+  },
+  "series_context": {
+    "history_index_path": "",
+    "history_index_built_at": "",
+    "history_records_scanned": 0
+  },
+  "editorial_brief": {
+    "today_need": "",
+    "recent_saturation": [],
+    "underexplored_directions": [],
+    "avoid_repeating": [],
+    "exploration_priority": [],
+    "quality_guardrail": "",
+    "selection_risk": "",
+    "user_override": ""
+  },
+  "discovery_routes": [],
+  "history_dedup": {
+    "history_index_path": "",
+    "history_index_sha256": "",
+    "checked_at": "",
+    "records_scanned": 0,
+    "near_duplicate_policy": {
+      "8_to_9_chars": 0.9,
+      "10_to_13_chars": 0.82,
+      "14_plus_chars": 0.72
+    },
+    "author_cooldown_days": 21,
+    "work_cooldown_days": 60,
+    "candidate_exposure_window_days": 60,
+    "candidate_exposure_review_count": 3,
+    "selected_candidate_id": "",
+    "selected_history_check": {},
+    "reuse_authorized": false,
+    "reuse_authorization_reason": "",
+    "cooldown_decision": "",
+    "cooldown_rationale": "",
+    "candidate_exposure_decision": "",
+    "candidate_exposure_rationale": "",
+    "decision": "pending",
+    "decision_reasons": []
+  },
+  "content": {
+    "text_type": "",
+    "text": "",
+    "author": "",
+    "work": "",
+    "chapter_or_context": "",
+    "translator": "",
+    "edition": "",
+    "source_url": "",
+    "source_title": "",
+    "secondary_source_url": "",
+    "verification_note": "",
+    "verified": false,
+    "user_requires_verbatim": true
+  },
+  "plain_brief": {
+    "core_meaning": "",
+    "meaning_basis": {
+      "source_locator": "",
+      "supporting_text": "",
+      "attribution_scope": "",
+      "support_note": "",
+      "limits": ""
+    },
+    "editorial_extension": "",
+    "editorial_emphasis_options": [],
+    "selected_emphasis": "",
+    "common_misreading": "",
+    "semantic_invariant": "",
+    "emotional_temperature": "",
+    "source_of_strength": "",
+    "intended_aftertaste": ""
+  },
+  "recent_inertia_check": {
+    "recent_cards_reviewed": [],
+    "recent_expression_mechanisms": [],
+    "repeated_theme_risk": "",
+    "repeated_expression_mechanism_risk": "",
+    "novelty_priority_check": "",
+    "decision": ""
+  },
+  "concept_competition": {
+    "mode": "standard",
+    "directed_reason": "",
+    "concepts": [],
+    "selected_concept_id": "",
+    "selection_rationale": ""
+  },
+  "pre_generation": {
+    "selected_concept_id": "",
+    "core_visual_relationship": "",
+    "medium": "",
+    "style_language": "",
+    "composition": "",
+    "typography_direction": "",
+    "color_functions": "",
+    "negative_space_plan": "",
+    "avoid_cliches": [],
+    "difference_from_recent": "",
+    "prompt": "",
+    "locked_before_generation": false,
+    "locked_at": "",
+    "lock_hash": ""
+  },
+  "post_generation": {
+    "background_path": "",
+    "generated_at": "",
+    "planned_relationships_realized": [],
+    "emergent_discoveries": [],
+    "deviations": [],
+    "regeneration_or_fix_decision": "",
+    "generic_background_test": "",
+    "literalness_test": ""
+  },
+  "production": {
+    "revision": 0,
+    "attempts": [],
+    "assets": {}
+  },
+  "execution_validation": {
+    "checked_at": "",
+    "key_action_or_state_realized": "",
+    "concept_fidelity": "",
+    "text_safe_area_usable": false,
+    "decision": "pending"
+  },
+  "layout": {
+    "render_source_path": "",
+    "final_image_path": "",
+    "rendered_at": "",
+    "canvas_width": 0,
+    "canvas_height": 0,
+    "date_text": "",
+    "source_label": "",
+    "yi_text": "",
+    "ji_text": "",
+    "font_rationale": "",
+    "line_break_rationale": ""
+  },
+  "semantic_cold_review": {
+    "missing_link": "pending",
+    "missing_link_note": "",
+    "plan_vs_observed": "",
+    "explanation_required": true,
+    "decision": "pending"
+  },
+  "design_concept": {
+    "file_path": "",
+    "written_at": "",
+    "selected_quote": "",
+    "quote_meaning": "",
+    "intended_picture_message": "",
+    "visual_design": "",
+    "full_text": ""
+  },
+  "qa": {
+    "date_and_weekday_correct": false,
+    "source_and_text_correct": false,
+    "content_type_labeled_correctly": false,
+    "pre_generation_record_existed": false,
+    "planned_vs_emergent_separated": false,
+    "final_text_rendered_deterministically": false,
+    "generated_text_checked": false,
+    "no_overlap_or_clipping": false,
+    "style_inertia_checked": false,
+    "theme_inertia_checked": false,
+    "history_dedup_checked": false,
+    "selection_breadth_checked": false,
+    "final_image_inspected_full_resolution": false,
+    "concept_competition_checked": false,
+    "execution_gate_checked": false,
+    "semantic_cold_review_checked": false,
+    "design_concept_matches_record": false,
+    "output_saved_to_user_directory": false,
+    "final_status": "pending"
+  },
+  "expression_policy": {
+    "profile": "implicit_relation",
+    "user_override": {
+      "allow_primary_figures": false,
+      "allow_direct_depiction": false,
+      "instruction": ""
+    }
+  }
+}

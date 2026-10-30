@@ -1,0 +1,4 @@
+interface:
+  display_name: "内容驱动每日一签"
+  short_description: "全历史查重、开放选句与内容驱动艺术指导的完整日签工作流"
+  default_prompt: "Use $daily-quote-art-director-zh 从全系列历史查重和开放选句开始，为今天完成一张内容驱动的每日一签。"
